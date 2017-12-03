@@ -18,3 +18,17 @@ print(sorted(testList, testSort))
 
 
 print(sorted(testList))
+
+
+'''
+返回函数
+    其实就是回调函数
+    '''
+def functionA(*agrs):
+    def functionB():
+        for k in agrs:
+            print(k + '\n')
+            return 0
+    return functionB
+
+functionA(1,2,3,4,5,6,7)
