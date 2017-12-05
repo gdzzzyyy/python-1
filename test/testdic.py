@@ -16,7 +16,7 @@ for k, v in dic1.iteritems():
         print('value  str = ', n)
 
 
-'''
+
 def deidai(index):
     list1 = [x * x for x in range(index, 5)]
     print(list1)
@@ -71,3 +71,13 @@ continueYiled = yieldReturn()
 print(continueYiled.next())
 print(continueYiled.next())
 print(continueYiled.next())
+
+'''
+
+a_set = {1,2,3,4,5}
+#print(a_set)
+
+a_set.update([1,2,5,6,7,8])
+print(a_set)
+a_set.clear()
+print(a_set)
